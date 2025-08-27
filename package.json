@@ -1,0 +1,28 @@
+{
+  "name": "student-id-card-vercel",
+  "version": "1.0.0",
+  "description": "Student ID Card Generator API for Vercel",
+  "main": "api/generate-card.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "vercel --prod"
+  },
+  "keywords": [
+    "student-id",
+    "card-generator", 
+    "vercel",
+    "api",
+    "puppeteer"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^21.5.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
